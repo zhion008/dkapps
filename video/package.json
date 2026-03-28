@@ -8,7 +8,8 @@
     "render": "remotion render src/index.tsx BrandedIntro out/dkapps-intro.mp4",
     "play": "node player.mjs",
     "open": "xdg-open out/dkapps-intro.mp4 2>/dev/null || open out/dkapps-intro.mp4",
-    "open:qt": "open -a 'QuickTime Player' out/dkapps-intro.mp4"
+    "open:qt": "open -a 'QuickTime Player' out/dkapps-intro.mp4",
+    "serve": "node serve.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.0",
