@@ -1,0 +1,21 @@
+{
+  "name": "dkapps-brand-video",
+  "version": "1.0.0",
+  "description": "20-second branded intro video for dkapps",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion render src/index.tsx BrandedIntro out/dkapps-intro.mp4",
+    "render": "remotion render src/index.tsx BrandedIntro out/dkapps-intro.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.0",
+    "remotion": "4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "remotion": {
+    "entryPoint": "./src/index.tsx"
+  }
+}
