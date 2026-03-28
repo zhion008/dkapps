@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "remotion studio",
     "build": "remotion render src/index.tsx BrandedIntro out/dkapps-intro.mp4",
-    "render": "remotion render src/index.tsx BrandedIntro out/dkapps-intro.mp4"
+    "render": "remotion render src/index.tsx BrandedIntro out/dkapps-intro.mp4",
+    "play": "node player.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.0",
+    "pngjs": "^7.0.0",
     "remotion": "4.0.0"
   },
   "devDependencies": {
