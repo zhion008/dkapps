@@ -1,0 +1,34 @@
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# HTTP client
+httpx==0.27.2
+
+# Data validation
+pydantic==2.10.1
+pydantic-settings==2.6.1
+
+# Instagram scraper
+instagrapi==2.1.2
+
+# TikTok scraper
+TikTokApi==6.3.2
+playwright==1.49.0
+
+# YouTube scraper
+yt-dlp==2024.11.18
+
+# Caching & rate limiting
+cachetools==5.5.0
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+pytest-httpx==0.33.0
+
+# Type checking
+mypy==1.13.0
