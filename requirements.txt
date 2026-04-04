@@ -19,6 +19,10 @@ playwright==1.49.0
 # YouTube scraper
 yt-dlp==2024.11.18
 
+# Google Sheets export
+gspread==6.1.4
+google-auth==2.36.0
+
 # Caching & rate limiting
 cachetools==5.5.0
 

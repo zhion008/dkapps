@@ -15,6 +15,10 @@ class Settings(BaseSettings):
     # TikTok
     tiktok_ms_token: str = ""
 
+    # Google Sheets
+    google_service_account_file: str = "credentials.json"
+    google_sheet_id: str = ""
+
     # API
     api_host: str = "0.0.0.0"
     api_port: int = 8000
